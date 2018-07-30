@@ -58,7 +58,7 @@ class Login extends Component<{}> {
           console.log('error in signing');
           this.props.navigation.navigate('HomeScreen', {
             user:{
-              photo:profile
+              photo:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3O5aMVWYhGCBMb2cdR1Ei1Vqe0cGw122jUv3Egs5dsErMYczngw'
             }
           });
         }
