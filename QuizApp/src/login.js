@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 
 import Home from './home';
-
+import profile from '../assets/default-profile-picture';
 import { StackNavigator } from 'react-navigation';
 
 GoogleSignin.configure({
@@ -56,6 +56,11 @@ class Login extends Component<{}> {
         } else {
           // some other error happened
           console.log('error in signing');
+          this.props.navigation.navigate('HomeScreen', {
+            user:{
+              photo:profile
+            }
+          });
         }
       }
     };
