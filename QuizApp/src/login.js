@@ -11,6 +11,16 @@ import Home from './home';
 
 import { StackNavigator } from 'react-navigation';
 
+GoogleSignin.configure({
+  scopes: ['https://www.googleapis.com/auth/drive.readonly'], // what API you want to access on behalf of the user, default is email and profile
+  webClientId:'846275887477-7tf57grs2t9d2ffh71sakbv8vvsq17hd.apps.googleusercontent.com',
+  forceConsentPrompt: true, // [Android] if you want to show the authorization prompt at each login
+}).then(() => {
+  // you can now call currentUserAsync()
+  //getCurrentUser();
+});
+
+
 const AppNavigator = StackNavigator({
   HomeScreen: { screen: Home }
 });
