@@ -1,0 +1,55 @@
+{"quiz" : {
+    "quiz1" : {
+      "question1" : {
+        "correctoption" : "option4",
+        "options" : {
+          "option1" : "Native Android/iOS",
+          "option2" : "React Native",
+          "option3" : "Apache Cordova/Phone Gap/Ionic",
+          "option4" : "Ember js"
+        },
+        "question" : "Which is not a MADP tech stack?"
+      },
+      "question2" : {
+        "correctoption" : "option3",
+        "options" : {
+            "option1" : "1991",
+            "option2" : "1981",
+            "option3" : "1994",
+            "option4" : "1992"
+          },
+        "question" : "When was Nagarro found?"
+      },
+      "question3" : {
+        "correctoption" : "option1",
+        "options" : {
+            "option1" : "Manmohan Gupta",
+            "option2" : "Manas Fluoria",
+            "option3" : "Vaibhav Gadodia",
+            "option4" : "Vikram Sehgal"
+          },
+        "question" : "Who mentors NAGP sessions"
+      },
+      "question4" : {
+        "correctoption" : "option4",
+        "options" : {
+            "option1" : "FBI",
+            "option2" : "CBI",
+            "option3" : "Russian Intelligence",
+            "option4" : "US military"
+          },
+        "question" : "Internet was first made for?"
+      },
+      "question5" : {
+        "correctoption" : "option3",
+        "options" : {
+            "option1" : "Microsoft",
+            "option2" : "Sun Microsystem",
+            "option3" : "Oracle",
+            "option4" : "None"
+          },
+        "question" : "Who owns Java and Javascript"
+      }
+    }
+  }
+  }

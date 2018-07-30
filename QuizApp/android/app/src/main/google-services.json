@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "846275887477",
+    "firebase_url": "https://alfirstproject.firebaseio.com",
+    "project_id": "alfirstproject"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846275887477:android:f34f9aef10ad3d12",
+        "android_client_info": {
+          "package_name": "com.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846275887477-es6sgogq0b007gsk2fcq6bur7i97juje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFMBZ_25H-OrWhvyfxgTjPqNFODoCTA4c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
