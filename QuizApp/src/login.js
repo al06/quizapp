@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 
 import Home from './home';
-import profile from '../assets/default-profile-picture';
+import profile from '../assets/default-profile-picture.jpg';
 import { StackNavigator } from 'react-navigation';
 
 GoogleSignin.configure({
